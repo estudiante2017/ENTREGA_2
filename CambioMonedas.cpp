@@ -3,13 +3,13 @@
 using namespace std;
 int main(int argc, char *argv[])
 {
-    int MAX_MONEDAS = 10;//Cantidad maxima de unidades de monedas 
-    int monedas[] = {1000,500,200,100,50,20,10,5,2,1};
+    int MAX_MONEDAS = 6;//Cantidad maxima de unidades de monedas 
+    int monedas[] = {50,20,10,5,2,1};
     int solucion[MAX_MONEDAS];
     int i, cambio;
     //Lectura de datos
     cout<<"\nEl problema del cambio"; 
-    cout<<"\nIngrese valor para cambiar en monedas: "; 
+    cout<<"\nIngrese el monto: "; 
     cin>>cambio;
     //Limpieza del vector
     for (i = 0; i < MAX_MONEDAS; i++)
